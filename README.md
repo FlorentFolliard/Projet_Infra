@@ -4,8 +4,8 @@
 Ce projet porte sur la conception et la mise en place d'une infrastructure serveur sécurisée permettant la cohabitation de plusieurs services web sur une adresse IP unique. L'objectif principal est de démontrer la maîtrise de l'architecture Reverse Proxy et de la gestion des certificats de sécurité.
 
 Membres :
-- **Oscar VIVIEN** : Administrateur Système & Réseaux, Responsable Infrastructure (Nginx/SSL)
-- **Florent FOLLIARD** : Intégrateur Système & Responsable Documentation (Configuration applicative, Liaison des services, Rédaction technique).
+- **Oscar VIVIEN** : Administrateur Système & Réseaux, Responsable Infrastructure
+- **Florent FOLLIARD** : Intégrateur Système & Responsable Documentation
 
 ## Cahier des charges
 Le cahier des charges impose les contraintes techniques suivantes :
@@ -22,7 +22,7 @@ Le projet a été mené selon les phases suivantes :
 3. **Site Wordpress** : Déploiement du site et configuration du serveur interne
 4.  **Application Node.js** : Déploiement de l'application et configuration du serveur interne.
 5.  **Architecture Réseau** : Configuration des Virtual Hosts Nginx pour l'aiguillage du trafic.
-6.  **Reverse Proxy** : Liaison des requêtes externes vers l'application Node.js interne sur le port 3000.
+6.  **Reverse Proxy** : Liaison des requêtes externes vers l'application Node.js interne sur le port 80.
 7.  **Sécurité** : Génération de certificats SSL auto-signés via OpenSSL et configuration des protocoles TLS.
 8.  **Validation** : Tests de résolution DNS locale, tests de connectivité et debug des erreurs de configuration (502 Bad Gateway, Erreurs 500,..)
 
