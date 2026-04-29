@@ -4,8 +4,8 @@
 Ce projet porte sur la conception et la mise en place d'une infrastructure serveur sécurisée permettant la cohabitation de plusieurs services web sur une adresse IP unique. L'objectif principal est de démontrer la maîtrise de l'architecture Reverse Proxy et de la gestion des certificats de sécurité.
 
 Membres :
-- **Oscar VIVIEN** : Administrateur Système & Réseaux, Responsable Infrastructure (Nginx/SSL)
-- **Florent FOLLIARD** : Intégrateur Système & Responsable Documentation (Configuration applicative, Liaison des services, Rédaction technique).
+- **Oscar VIVIEN** : Administrateur Système & Réseaux, Responsable Infrastructure
+- **Florent FOLLIARD** : Intégrateur Système & Responsable Documentation
 
 ## Cahier des charges
 Le cahier des charges impose les contraintes techniques suivantes :
